@@ -4,6 +4,7 @@
   background-color: white;
   padding-top:20px;
   padding-bottom:20px;
+  z-index:1060px;
 }
 #search-error{
   color:red;
