@@ -1,0 +1,13 @@
+.floater{
+  background-color:#5eb8ff50;
+}
+.floater::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+.floater-thumbnail{
+  float:left;
+  display:block;
+}

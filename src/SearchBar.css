@@ -1,0 +1,36 @@
+#search-bar{
+  position:sticky;
+  top:75px;
+  background-color: white;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+#search-error{
+  color:red;
+  position:absolute;
+  font-size:14px;
+}
+#random{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.btn{
+  width:50;
+}
+@media (min-width: 576px) {
+  .btn {
+    width:75px;
+  }
+}
+@media (min-width: 992px) {
+  .btn {
+    width:100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    width:125px;
+  }
+}
